@@ -1,0 +1,19 @@
+:root {
+  --vp-c-brand-1: #0ca5b0;
+  --vp-c-brand-2: #0a8d97;
+  --vp-c-brand-3: #18b9c4;
+  --vp-c-brand-soft: rgba(12, 165, 176, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #22c3cf;
+  --vp-c-brand-2: #0ca5b0;
+  --vp-c-brand-3: #4dd6df;
+  --vp-c-brand-soft: rgba(34, 195, 207, 0.16);
+}
+
+/* Tint the home hero name with the ocean-teal accent. */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0ca5b0 30%, #2dd4bf);
+}

@@ -1,0 +1,33 @@
+{
+  "slidesSizesGrid": [
+    120,
+    200,
+    160,
+    240,
+    180
+  ],
+  "slidesGrid": [
+    0,
+    120,
+    320,
+    480,
+    720
+  ],
+  "snapGrid": [
+    0,
+    120,
+    300
+  ],
+  "activeIndex-after-slideTo-2": 2,
+  "visible-indexes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "fully-visible-indexes": [
+    2,
+    3,
+    4
+  ]
+}

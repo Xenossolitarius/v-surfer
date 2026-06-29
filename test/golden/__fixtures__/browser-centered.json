@@ -1,0 +1,62 @@
+{
+  "int-slidesGrid": [
+    -300,
+    0,
+    300,
+    600,
+    900,
+    1200
+  ],
+  "int-snapGrid": [
+    -300,
+    0,
+    300,
+    600,
+    900,
+    1200
+  ],
+  "int-activeIndex-0": 0,
+  "int-activeIndex-2": 2,
+  "int-activeIndex-4": 4,
+  "int-activeIndex-1": 1,
+  "int-visible-indexes": [
+    0,
+    1,
+    2
+  ],
+  "int-fully-visible-indexes": [
+    0,
+    1,
+    2
+  ],
+  "auto-slidesGrid": [
+    -240,
+    -80,
+    100,
+    300,
+    510,
+    670
+  ],
+  "auto-snapGrid": [
+    -240,
+    -80,
+    100,
+    300,
+    510,
+    670
+  ],
+  "auto-activeIndex-0": 0,
+  "auto-activeIndex-3": 3,
+  "auto-activeIndex-1": 1,
+  "auto-visible-indexes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "auto-fully-visible-indexes": [
+    0,
+    1,
+    2
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "vert-slidesGrid": [
+    0,
+    120,
+    240,
+    360,
+    480,
+    600
+  ],
+  "vert-snapGrid": [
+    0,
+    120,
+    240,
+    360
+  ],
+  "vert-activeIndex-0": 0,
+  "vert-activeIndex-2": 2,
+  "vert-activeIndex-4": 3,
+  "vert-activeIndex-1": 1,
+  "vert-visible-indexes": [
+    1,
+    2,
+    3
+  ],
+  "vertrtl-slidesGrid": [
+    0,
+    120,
+    240,
+    360,
+    480,
+    600
+  ],
+  "vertrtl-snapGrid": [
+    0,
+    120,
+    240,
+    360
+  ],
+  "vertrtl-activeIndex-2": 2,
+  "vertrtl-translate-2": -240,
+  "vertrtl-activeIndex-4": 3,
+  "vertrtl-translate-4": -360,
+  "vertrtl-activeIndex-1": 1,
+  "vertrtl-translate-1": -120,
+  "rtl-slidesGrid": [
+    0,
+    300,
+    600,
+    900,
+    1200,
+    1500
+  ],
+  "rtl-snapGrid": [
+    0,
+    300,
+    600,
+    900,
+    1200
+  ],
+  "rtl-activeIndex-2": 2,
+  "rtl-translate-2": 600,
+  "rtl-activeIndex-4": 4,
+  "rtl-translate-4": 1200,
+  "rtl-activeIndex-1": 1,
+  "rtl-translate-1": 300
+}

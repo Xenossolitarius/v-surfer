@@ -1,0 +1,14 @@
+{
+  "keyboard-horizontal-step0-sign": 1,
+  "keyboard-horizontal-step1-sign": 1,
+  "keyboard-horizontal-step2-sign": -1,
+  "keyboard-horizontal-rtl-step0-sign": 0,
+  "keyboard-horizontal-rtl-step1-sign": 1,
+  "keyboard-vertical-step0-sign": 1,
+  "keyboard-vertical-step1-sign": 1,
+  "keyboard-vertical-step2-sign": -1,
+  "mousewheel-discrete-step0-activeIndex": 1,
+  "mousewheel-discrete-step1-activeIndex": 2,
+  "mousewheel-discrete-step2-activeIndex": 3,
+  "mousewheel-freemode-translate": -100
+}

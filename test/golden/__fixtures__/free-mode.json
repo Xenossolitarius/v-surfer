@@ -1,0 +1,278 @@
+{
+  "ltr-next-flick:minTranslate": 0,
+  "ltr-next-flick:maxTranslate": -5600,
+  "ltr-next-flick:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "ltr-next-flick:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "ltr-next-flick:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-next-flick:oracleTranslate": -2300,
+  "ltr-next-flick:oracleActive": 3,
+  "ltr-prev-flick:minTranslate": 0,
+  "ltr-prev-flick:maxTranslate": -5600,
+  "ltr-prev-flick:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "ltr-prev-flick:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "ltr-prev-flick:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-prev-flick:oracleTranslate": -1700,
+  "ltr-prev-flick:oracleActive": 2,
+  "ltr-clamp-end:minTranslate": 0,
+  "ltr-clamp-end:maxTranslate": -3200,
+  "ltr-clamp-end:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "ltr-clamp-end:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "ltr-clamp-end:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-clamp-end:oracleTranslate": -3200,
+  "ltr-clamp-end:oracleActive": 4,
+  "ltr-overscroll:minTranslate": 0,
+  "ltr-overscroll:maxTranslate": -3200,
+  "ltr-overscroll:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "ltr-overscroll:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "ltr-overscroll:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-overscroll:oracleTranslate": -3200,
+  "ltr-overscroll:oracleActive": 4,
+  "ltr-sticky-zero:minTranslate": 0,
+  "ltr-sticky-zero:maxTranslate": -4000,
+  "ltr-sticky-zero:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "ltr-sticky-zero:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "ltr-sticky-zero:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-sticky-zero:oracleTranslate": -1600,
+  "ltr-sticky-zero:oracleActive": 2,
+  "ltr-momentum-off-sticky:minTranslate": 0,
+  "ltr-momentum-off-sticky:maxTranslate": -4000,
+  "ltr-momentum-off-sticky:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "ltr-momentum-off-sticky:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "ltr-momentum-off-sticky:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "ltr-momentum-off-sticky:oracleTranslate": -1600,
+  "ltr-momentum-off-sticky:oracleActive": 2,
+  "vert-next-flick:minTranslate": 0,
+  "vert-next-flick:maxTranslate": -2800,
+  "vert-next-flick:snapGrid": [
+    0,
+    400,
+    800,
+    1200,
+    1600,
+    2000,
+    2400,
+    2800
+  ],
+  "vert-next-flick:slidesGrid": [
+    0,
+    400,
+    800,
+    1200,
+    1600,
+    2000,
+    2400,
+    2800
+  ],
+  "vert-next-flick:slidesSizesGrid": [
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400
+  ],
+  "vert-next-flick:oracleTranslate": -1900,
+  "vert-next-flick:oracleActive": 5,
+  "rtl-left-flick:canonicalTranslate": -800,
+  "rtl-left-flick:minTranslate": 0,
+  "rtl-left-flick:maxTranslate": -5600,
+  "rtl-left-flick:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "rtl-left-flick:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "rtl-left-flick:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "rtl-left-flick:oracleTranslate": 0,
+  "rtl-right-flick:canonicalTranslate": -2400,
+  "rtl-right-flick:minTranslate": 0,
+  "rtl-right-flick:maxTranslate": -5600,
+  "rtl-right-flick:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "rtl-right-flick:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800,
+    5600
+  ],
+  "rtl-right-flick:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "rtl-right-flick:oracleTranslate": 3900
+}

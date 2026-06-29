@@ -1,0 +1,59 @@
+{
+  "container-basic-horizontal": [
+    "v-surfer",
+    "v-surfer-horizontal"
+  ],
+  "slide-classes-target0-slide0": [
+    "v-surfer-slide",
+    "v-surfer-slide-active"
+  ],
+  "slide-classes-target0-slide1": [
+    "v-surfer-slide",
+    "v-surfer-slide-next"
+  ],
+  "slide-classes-target0-slide2": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target0-slide3": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target0-slide4": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target1-slide0": [
+    "v-surfer-slide",
+    "v-surfer-slide-prev"
+  ],
+  "slide-classes-target1-slide1": [
+    "v-surfer-slide",
+    "v-surfer-slide-active"
+  ],
+  "slide-classes-target1-slide2": [
+    "v-surfer-slide",
+    "v-surfer-slide-next"
+  ],
+  "slide-classes-target1-slide3": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target1-slide4": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target3-slide0": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target3-slide1": [
+    "v-surfer-slide"
+  ],
+  "slide-classes-target3-slide2": [
+    "v-surfer-slide",
+    "v-surfer-slide-prev"
+  ],
+  "slide-classes-target3-slide3": [
+    "v-surfer-slide",
+    "v-surfer-slide-active"
+  ],
+  "slide-classes-target3-slide4": [
+    "v-surfer-slide",
+    "v-surfer-slide-next"
+  ]
+}

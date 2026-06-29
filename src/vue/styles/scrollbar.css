@@ -1,0 +1,59 @@
+:root {
+  /*
+  --v-surfer-scrollbar-border-radius: 10px;
+  --v-surfer-scrollbar-top: auto;
+  --v-surfer-scrollbar-bottom: 4px;
+  --v-surfer-scrollbar-left: auto;
+  --v-surfer-scrollbar-right: 4px;
+  --v-surfer-scrollbar-sides-offset: 1%;
+  --v-surfer-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
+  --v-surfer-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);
+  --v-surfer-scrollbar-size: 4px;
+  */
+}
+.v-surfer-scrollbar {
+  border-radius: var(--v-surfer-scrollbar-border-radius, 10px);
+  position: relative;
+  -ms-touch-action: none;
+  touch-action: none;
+  background: var(--v-surfer-scrollbar-bg-color, rgba(0, 0, 0, 0.1));
+  .v-surfer-scrollbar-disabled > &,
+  &.v-surfer-scrollbar-disabled {
+    display: none !important;
+  }
+  .v-surfer-horizontal > &,
+  &.v-surfer-scrollbar-horizontal {
+    position: absolute;
+    left: var(--v-surfer-scrollbar-sides-offset, 1%);
+    bottom: var(--v-surfer-scrollbar-bottom, 4px);
+    top: var(--v-surfer-scrollbar-top, auto);
+    z-index: 50;
+    height: var(--v-surfer-scrollbar-size, 4px);
+    width: calc(100% - 2 * var(--v-surfer-scrollbar-sides-offset, 1%));
+  }
+  .v-surfer-vertical > &,
+  &.v-surfer-scrollbar-vertical {
+    position: absolute;
+    left: var(--v-surfer-scrollbar-left, auto);
+    right: var(--v-surfer-scrollbar-right, 4px);
+    top: var(--v-surfer-scrollbar-sides-offset, 1%);
+    z-index: 50;
+    width: var(--v-surfer-scrollbar-size, 4px);
+    height: calc(100% - 2 * var(--v-surfer-scrollbar-sides-offset, 1%));
+  }
+}
+.v-surfer-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: var(--v-surfer-scrollbar-drag-bg-color, rgba(0, 0, 0, 0.5));
+  border-radius: var(--v-surfer-scrollbar-border-radius, 10px);
+  left: 0;
+  top: 0;
+}
+.v-surfer-scrollbar-cursor-drag {
+  cursor: move;
+}
+.v-surfer-scrollbar-lock {
+  display: none;
+}

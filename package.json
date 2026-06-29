@@ -1,0 +1,65 @@
+{
+  "name": "v-surfer-src",
+  "version": "1.0.0",
+  "description": "DOM-free headless slider engine with a Vue 3 component kit and Nuxt module",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "playground": "vite ./playground",
+    "format": "oxfmt \"**/*.{js,cjs,mjs,jsx,ts,tsx}\"",
+    "check-format": "oxfmt --check \"**/*.{js,cjs,mjs,jsx,ts,tsx}\"",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "validate": "npm-run-all --parallel check-format lint typecheck",
+    "test": "pnpm validate && pnpm build",
+    "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -u -s",
+    "docs:dev": "pnpm --filter @v-surfer/docs dev",
+    "docs:build": "pnpm --filter @v-surfer/docs build",
+    "docs:preview": "pnpm --filter @v-surfer/docs preview",
+    "vitest": "vitest",
+    "test:unit": "pnpm build && vitest run --project unit",
+    "test:ssr": "pnpm build && vitest run --project ssr",
+    "test:browser": "pnpm build && vitest run --project browser",
+    "test:types": "pnpm build && vitest run --project types",
+    "test:snap": "pnpm build && vitest run test/playgrounds",
+    "test:coverage": "pnpm build && vitest run --project unit --project ssr --coverage",
+    "test:all": "pnpm build && vitest run",
+    "check": "pnpm validate && pnpm test:coverage && pnpm test:browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xenossolitarius/v-surfer.git"
+  },
+  "author": "Ivan Pešić",
+  "license": "MIT",
+  "packageManager": "pnpm@11.5.3",
+  "bugs": {
+    "url": "https://github.com/Xenossolitarius/v-surfer/issues"
+  },
+  "homepage": "https://github.com/Xenossolitarius/v-surfer",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^4.4.8",
+    "@nuxt/schema": "^4.4.8",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vitest/browser": "^4.1.9",
+    "@vitest/browser-playwright": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.9",
+    "@vue/test-utils": "^2.4.11",
+    "autoprefixer": "^10.5.2",
+    "conventional-changelog-cli": "^2.2.2",
+    "happy-dom": "^20.10.6",
+    "npm-run-all": "^4.1.5",
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.71.0",
+    "playwright": "^1.61.1",
+    "postcss": "^8.5.15",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.0",
+    "vitest": "^4.1.9",
+    "vue": "^3.5.39"
+  }
+}

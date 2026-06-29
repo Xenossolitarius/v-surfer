@@ -1,0 +1,629 @@
+{
+  "append-keep-active:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "append-keep-active:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "append-keep-active:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "append-keep-active:translate": -1600,
+  "append-keep-active:activeIndex": 2,
+  "append-keep-active:isBeginning": false,
+  "append-keep-active:isEnd": false,
+  "append-keep-active:progress": 0.4,
+  "prepend-shifts-active:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "prepend-shifts-active:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "prepend-shifts-active:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "prepend-shifts-active:translate": -3200,
+  "prepend-shifts-active:activeIndex": 4,
+  "prepend-shifts-active:isBeginning": false,
+  "prepend-shifts-active:isEnd": false,
+  "prepend-shifts-active:progress": 0.6666666666666666,
+  "addSlide-at-1:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "addSlide-at-1:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-1:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-1:translate": -2400,
+  "addSlide-at-1:activeIndex": 3,
+  "addSlide-at-1:isBeginning": false,
+  "addSlide-at-1:isEnd": false,
+  "addSlide-at-1:progress": 0.6,
+  "addSlide-at-2:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "addSlide-at-2:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-2:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-2:translate": -1600,
+  "addSlide-at-2:activeIndex": 2,
+  "addSlide-at-2:isBeginning": false,
+  "addSlide-at-2:isEnd": false,
+  "addSlide-at-2:progress": 0.4,
+  "addSlide-at-4:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "addSlide-at-4:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-4:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000
+  ],
+  "addSlide-at-4:translate": -1600,
+  "addSlide-at-4:activeIndex": 2,
+  "addSlide-at-4:isBeginning": false,
+  "addSlide-at-4:isEnd": false,
+  "addSlide-at-4:progress": 0.4,
+  "removeSlide-0:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "removeSlide-0:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-0:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-0:translate": -1600,
+  "removeSlide-0:activeIndex": 2,
+  "removeSlide-0:isBeginning": false,
+  "removeSlide-0:isEnd": false,
+  "removeSlide-0:progress": 0.5,
+  "removeSlide-2:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "removeSlide-2:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-2:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-2:translate": -1600,
+  "removeSlide-2:activeIndex": 2,
+  "removeSlide-2:isBeginning": false,
+  "removeSlide-2:isEnd": false,
+  "removeSlide-2:progress": 0.5,
+  "removeSlide-4:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "removeSlide-4:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-4:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "removeSlide-4:translate": -2400,
+  "removeSlide-4:activeIndex": 3,
+  "removeSlide-4:isBeginning": false,
+  "removeSlide-4:isEnd": false,
+  "removeSlide-4:progress": 0.75,
+  "removeSlide-01:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800
+  ],
+  "removeSlide-01:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400
+  ],
+  "removeSlide-01:snapGrid": [
+    0,
+    800,
+    1600,
+    2400
+  ],
+  "removeSlide-01:translate": -800,
+  "removeSlide-01:activeIndex": 1,
+  "removeSlide-01:isBeginning": false,
+  "removeSlide-01:isEnd": false,
+  "removeSlide-01:progress": 0.3333333333333333,
+  "removeSlide-34:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800
+  ],
+  "removeSlide-34:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400
+  ],
+  "removeSlide-34:snapGrid": [
+    0,
+    800,
+    1600,
+    2400
+  ],
+  "removeSlide-34:translate": -2400,
+  "removeSlide-34:activeIndex": 3,
+  "removeSlide-34:isBeginning": false,
+  "removeSlide-34:isEnd": true,
+  "removeSlide-34:progress": 1,
+  "removeAll-empty:slidesSizesGrid": [],
+  "removeAll-empty:slidesGrid": [],
+  "removeAll-empty:snapGrid": [
+    0
+  ],
+  "removeAll-empty:translate": 0,
+  "removeAll-empty:activeIndex": 1,
+  "removeAll-empty:isBeginning": true,
+  "removeAll-empty:isEnd": true,
+  "removeAll-empty:progress": 0,
+  "removeAll-reappend:slidesSizesGrid": [
+    800,
+    800,
+    800
+  ],
+  "removeAll-reappend:slidesGrid": [
+    0,
+    800,
+    1600
+  ],
+  "removeAll-reappend:snapGrid": [
+    0,
+    800,
+    1600
+  ],
+  "removeAll-reappend:translate": -800,
+  "removeAll-reappend:activeIndex": 1,
+  "removeAll-reappend:isBeginning": false,
+  "removeAll-reappend:isEnd": false,
+  "removeAll-reappend:progress": 0.5,
+  "loop-append-preserve-realidx:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-append-preserve-realidx:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-append-preserve-realidx:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-append-preserve-realidx:translate": -2400,
+  "loop-append-preserve-realidx:activeIndex": 3,
+  "loop-append-preserve-realidx:isBeginning": false,
+  "loop-append-preserve-realidx:isEnd": false,
+  "loop-append-preserve-realidx:progress": 0.5,
+  "loop-append-preserve-realidx:realIndex": 3,
+  "loop-prepend-preserve-realidx:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-prepend-preserve-realidx:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-prepend-preserve-realidx:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-prepend-preserve-realidx:translate": -3200,
+  "loop-prepend-preserve-realidx:activeIndex": 4,
+  "loop-prepend-preserve-realidx:isBeginning": false,
+  "loop-prepend-preserve-realidx:isEnd": false,
+  "loop-prepend-preserve-realidx:progress": 0.6666666666666666,
+  "loop-prepend-preserve-realidx:realIndex": 4,
+  "loop-removeSlide-below:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-removeSlide-below:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "loop-removeSlide-below:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "loop-removeSlide-below:translate": -2400,
+  "loop-removeSlide-below:activeIndex": 3,
+  "loop-removeSlide-below:isBeginning": false,
+  "loop-removeSlide-below:isEnd": false,
+  "loop-removeSlide-below:progress": 0.75,
+  "loop-removeSlide-below:realIndex": 3,
+  "loop-removeAll-empty:slidesSizesGrid": [],
+  "loop-removeAll-empty:slidesGrid": [],
+  "loop-removeAll-empty:snapGrid": [
+    0
+  ],
+  "loop-removeAll-empty:translate": 0,
+  "loop-removeAll-empty:activeIndex": 1,
+  "loop-removeAll-empty:isBeginning": true,
+  "loop-removeAll-empty:isEnd": true,
+  "loop-removeAll-empty:progress": 0,
+  "loop-removeAll-empty:realIndex": 1,
+  "loop-removeAll-reappend:slidesSizesGrid": [
+    800,
+    800,
+    800
+  ],
+  "loop-removeAll-reappend:slidesGrid": [
+    0,
+    800,
+    1600
+  ],
+  "loop-removeAll-reappend:snapGrid": [
+    0,
+    800,
+    1600
+  ],
+  "loop-removeAll-reappend:translate": -800,
+  "loop-removeAll-reappend:activeIndex": 1,
+  "loop-removeAll-reappend:isBeginning": false,
+  "loop-removeAll-reappend:isEnd": false,
+  "loop-removeAll-reappend:progress": 0.5,
+  "loop-removeAll-reappend:realIndex": 1,
+  "loop-spv3-removeAll-empty:slidesSizesGrid": [],
+  "loop-spv3-removeAll-empty:slidesGrid": [],
+  "loop-spv3-removeAll-empty:snapGrid": [
+    0
+  ],
+  "loop-spv3-removeAll-empty:translate": 0,
+  "loop-spv3-removeAll-empty:activeIndex": 2,
+  "loop-spv3-removeAll-empty:isBeginning": true,
+  "loop-spv3-removeAll-empty:isEnd": true,
+  "loop-spv3-removeAll-empty:progress": 0,
+  "loop-spv3-removeAll-empty:realIndex": 2,
+  "loop-spv3-removeAll-reappend:slidesSizesGrid": [
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667
+  ],
+  "loop-spv3-removeAll-reappend:slidesGrid": [
+    0,
+    266.6666666666667,
+    533.3333333333334,
+    800
+  ],
+  "loop-spv3-removeAll-reappend:snapGrid": [
+    0,
+    266.6666666666667
+  ],
+  "loop-spv3-removeAll-reappend:translate": -266.6666666666667,
+  "loop-spv3-removeAll-reappend:activeIndex": 1,
+  "loop-spv3-removeAll-reappend:isBeginning": false,
+  "loop-spv3-removeAll-reappend:isEnd": true,
+  "loop-spv3-removeAll-reappend:progress": 1,
+  "loop-spv3-removeAll-reappend:realIndex": 1,
+  "loop-near-append-last:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-near-append-last:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-near-append-last:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-near-append-last:translate": -4000,
+  "loop-near-append-last:activeIndex": 5,
+  "loop-near-append-last:isBeginning": false,
+  "loop-near-append-last:isEnd": false,
+  "loop-near-append-last:progress": 0.8333333333333334,
+  "loop-near-append-last:realIndex": 5,
+  "loop-near-prepend-idx0:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-near-prepend-idx0:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-near-prepend-idx0:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200,
+    4000,
+    4800
+  ],
+  "loop-near-prepend-idx0:translate": -800,
+  "loop-near-prepend-idx0:activeIndex": 1,
+  "loop-near-prepend-idx0:isBeginning": false,
+  "loop-near-prepend-idx0:isEnd": false,
+  "loop-near-prepend-idx0:progress": 0.16666666666666666,
+  "loop-near-prepend-idx0:realIndex": 1,
+  "loop-near-remove-active4-below:slidesSizesGrid": [
+    800,
+    800,
+    800,
+    800,
+    800
+  ],
+  "loop-near-remove-active4-below:slidesGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "loop-near-remove-active4-below:snapGrid": [
+    0,
+    800,
+    1600,
+    2400,
+    3200
+  ],
+  "loop-near-remove-active4-below:translate": -2400,
+  "loop-near-remove-active4-below:activeIndex": 3,
+  "loop-near-remove-active4-below:isBeginning": false,
+  "loop-near-remove-active4-below:isEnd": false,
+  "loop-near-remove-active4-below:progress": 0.75,
+  "loop-near-remove-active4-below:realIndex": 3,
+  "loop-near-spv3-append-idx6:slidesSizesGrid": [
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667
+  ],
+  "loop-near-spv3-append-idx6:slidesGrid": [
+    0,
+    266.6666666666667,
+    533.3333333333334,
+    800,
+    1066.6666666666667,
+    1333.3333333333335,
+    1600.0000000000002,
+    1866.666666666667,
+    2133.3333333333335
+  ],
+  "loop-near-spv3-append-idx6:snapGrid": [
+    0,
+    266.6666666666667,
+    533.3333333333334,
+    800,
+    1066.6666666666667,
+    1333.3333333333335,
+    1600
+  ],
+  "loop-near-spv3-append-idx6:translate": -1333.3333333333335,
+  "loop-near-spv3-append-idx6:activeIndex": 5,
+  "loop-near-spv3-append-idx6:isBeginning": false,
+  "loop-near-spv3-append-idx6:isEnd": false,
+  "loop-near-spv3-append-idx6:progress": 0.8333333333333335,
+  "loop-near-spv3-append-idx6:realIndex": 5,
+  "loop-near-spv3-prepend-idx0:slidesSizesGrid": [
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667,
+    266.6666666666667
+  ],
+  "loop-near-spv3-prepend-idx0:slidesGrid": [
+    0,
+    266.6666666666667,
+    533.3333333333334,
+    800,
+    1066.6666666666667,
+    1333.3333333333335,
+    1600.0000000000002,
+    1866.666666666667,
+    2133.3333333333335
+  ],
+  "loop-near-spv3-prepend-idx0:snapGrid": [
+    0,
+    266.6666666666667,
+    533.3333333333334,
+    800,
+    1066.6666666666667,
+    1333.3333333333335,
+    1600
+  ],
+  "loop-near-spv3-prepend-idx0:translate": -266.6666666666667,
+  "loop-near-spv3-prepend-idx0:activeIndex": 1,
+  "loop-near-spv3-prepend-idx0:isBeginning": false,
+  "loop-near-spv3-prepend-idx0:isEnd": false,
+  "loop-near-spv3-prepend-idx0:progress": 0.16666666666666669,
+  "loop-near-spv3-prepend-idx0:realIndex": 1
+}

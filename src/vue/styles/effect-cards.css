@@ -1,0 +1,10 @@
+.v-surfer.v-surfer-cards {
+  overflow: visible;
+}
+.v-surfer-cards {
+  .v-surfer-slide {
+    transform-origin: center bottom;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,30 @@
+.v-surfer.v-surfer-flip {
+  overflow: visible;
+}
+.v-surfer-flip {
+  .v-surfer-slide {
+    pointer-events: none;
+    backface-visibility: hidden;
+    z-index: 1;
+    .v-surfer-slide {
+      pointer-events: none;
+    }
+  }
+  .v-surfer-slide-active {
+    &,
+    & .v-surfer-slide-active {
+      pointer-events: auto;
+    }
+  }
+}
+/* Flip slide shadows start */
+.v-surfer-flip {
+  .v-surfer-slide-shadow-flip.v-surfer-slide-shadow-top,
+  .v-surfer-slide-shadow-flip.v-surfer-slide-shadow-bottom,
+  .v-surfer-slide-shadow-flip.v-surfer-slide-shadow-left,
+  .v-surfer-slide-shadow-flip.v-surfer-slide-shadow-right {
+    z-index: 0;
+    backface-visibility: hidden;
+  }
+}
+/* Flip slide shadows end */

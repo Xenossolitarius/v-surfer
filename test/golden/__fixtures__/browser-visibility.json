@@ -1,0 +1,16 @@
+{
+  "spv1-visible-indexes": [
+    0
+  ],
+  "spv1-fully-visible-indexes": [
+    0
+  ],
+  "spv2-visible-indexes": [
+    0,
+    1
+  ],
+  "spv2-fully-visible-indexes": [
+    0,
+    1
+  ]
+}

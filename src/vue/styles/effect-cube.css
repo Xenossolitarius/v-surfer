@@ -1,0 +1,71 @@
+.v-surfer.v-surfer-cube {
+  overflow: visible;
+}
+.v-surfer-cube {
+  .v-surfer-slide {
+    pointer-events: none;
+    backface-visibility: hidden;
+    z-index: 1;
+    visibility: hidden;
+    transform-origin: 0 0;
+    width: 100%;
+    height: 100%;
+    .v-surfer-slide {
+      pointer-events: none;
+    }
+  }
+  &.v-surfer-rtl .v-surfer-slide {
+    transform-origin: 100% 0;
+  }
+  .v-surfer-slide-active {
+    &,
+    & .v-surfer-slide-active {
+      pointer-events: auto;
+    }
+  }
+  .v-surfer-slide-active,
+  .v-surfer-slide-next,
+  .v-surfer-slide-prev {
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .v-surfer-cube-shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 0;
+
+    &:before {
+      content: '';
+      background: #000;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      -webkit-filter: blur(50px);
+      filter: blur(50px);
+    }
+  }
+}
+.v-surfer-cube {
+  .v-surfer-slide-next + .v-surfer-slide {
+    pointer-events: auto;
+    visibility: visible;
+  }
+}
+/* Cube slide shadows start */
+.v-surfer-cube {
+  .v-surfer-slide-shadow-cube.v-surfer-slide-shadow-top,
+  .v-surfer-slide-shadow-cube.v-surfer-slide-shadow-bottom,
+  .v-surfer-slide-shadow-cube.v-surfer-slide-shadow-left,
+  .v-surfer-slide-shadow-cube.v-surfer-slide-shadow-right {
+    z-index: 0;
+    backface-visibility: hidden;
+  }
+}
+/* Cube slide shadows end */

@@ -1,0 +1,20 @@
+.v-surfer-fade {
+  &.v-surfer-free-mode {
+    .v-surfer-slide {
+      transition-timing-function: ease-out;
+    }
+  }
+  .v-surfer-slide {
+    pointer-events: none;
+    transition-property: opacity;
+    .v-surfer-slide {
+      pointer-events: none;
+    }
+  }
+  .v-surfer-slide-active {
+    pointer-events: auto;
+    & .v-surfer-slide-active {
+      pointer-events: auto;
+    }
+  }
+}

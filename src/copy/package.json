@@ -1,0 +1,99 @@
+{
+  "name": "v-surfer",
+  "version": "1.0.0",
+  "description": "DOM-free headless slider engine with a Vue 3 component kit and Nuxt module",
+  "typings": "./vue/index.d.ts",
+  "type": "module",
+  "main": "./vue.mjs",
+  "module": "./vue.mjs",
+  "exports": {
+    ".": {
+      "types": "./vue/index.d.ts",
+      "default": "./vue.mjs"
+    },
+    "./vue": {
+      "types": "./vue/index.d.ts",
+      "default": "./vue.mjs"
+    },
+    "./nuxt": {
+      "types": "./vue/nuxt.d.ts",
+      "default": "./nuxt.mjs"
+    },
+    "./css": {
+      "types": "./vue.css.d.ts",
+      "default": "./vue.css"
+    },
+    "./css/core": {
+      "types": "./styles/core.css.d.ts",
+      "default": "./styles/core.css"
+    },
+    "./css/a11y": {
+      "types": "./styles/a11y.css.d.ts",
+      "default": "./styles/a11y.css"
+    },
+    "./css/effect-coverflow": {
+      "types": "./styles/effect-coverflow.css.d.ts",
+      "default": "./styles/effect-coverflow.css"
+    },
+    "./css/effect-cube": {
+      "types": "./styles/effect-cube.css.d.ts",
+      "default": "./styles/effect-cube.css"
+    },
+    "./css/effect-fade": {
+      "types": "./styles/effect-fade.css.d.ts",
+      "default": "./styles/effect-fade.css"
+    },
+    "./css/effect-flip": {
+      "types": "./styles/effect-flip.css.d.ts",
+      "default": "./styles/effect-flip.css"
+    },
+    "./css/effect-creative": {
+      "types": "./styles/effect-creative.css.d.ts",
+      "default": "./styles/effect-creative.css"
+    },
+    "./css/effect-cards": {
+      "types": "./styles/effect-cards.css.d.ts",
+      "default": "./styles/effect-cards.css"
+    },
+    "./css/free-mode": {
+      "types": "./styles/free-mode.css.d.ts",
+      "default": "./styles/free-mode.css"
+    },
+    "./css/navigation": {
+      "types": "./styles/navigation.css.d.ts",
+      "default": "./styles/navigation.css"
+    },
+    "./css/pagination": {
+      "types": "./styles/pagination.css.d.ts",
+      "default": "./styles/pagination.css"
+    },
+    "./css/scrollbar": {
+      "types": "./styles/scrollbar.css.d.ts",
+      "default": "./styles/scrollbar.css"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0",
+    "@nuxt/kit": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@nuxt/kit": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xenossolitarius/v-surfer.git"
+  },
+  "author": "Ivan Pešić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenossolitarius/v-surfer/issues"
+  },
+  "homepage": "https://github.com/Xenossolitarius/v-surfer",
+  "engines": {
+    "node": ">=20"
+  },
+  "releaseDate": "May 27, 2026"
+}

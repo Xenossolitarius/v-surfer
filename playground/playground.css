@@ -1,0 +1,31 @@
+/* Global slide-state visualization for the playground. The kit renders the
+   v-surfer-slide-* state classes; these rules surface active/prev/next/visibility
+   so the engine's bookkeeping is visible at a glance.
+
+   NOTE: do NOT add a `transition` shorthand to `.v-surfer-slide` here — it would
+   replace `transition-property` and drop `transform`, killing the transform-based
+   effect animations (flip/coverflow/cube/cards). The active outline just snaps;
+   that is fine for an inspection tool. */
+
+/* Active slide: blue outline. */
+.v-surfer-slide-active {
+  outline: 3px solid #007aff;
+  outline-offset: -3px;
+}
+
+/* Prev / next: colored inner edge bar. */
+.v-surfer-slide-prev {
+  box-shadow: inset 6px 0 0 rgba(220, 0, 0, 0.6);
+}
+.v-surfer-slide-next {
+  box-shadow: inset -6px 0 0 rgba(0, 160, 0, 0.6);
+}
+
+/* Visibility: dim slides that are not visible at all. */
+.v-surfer-slide:not(.v-surfer-slide-visible) {
+  opacity: 0.4;
+}
+/* Fully-visible slides get a subtle inset ring so partial vs full reads clearly. */
+.v-surfer-slide-fully-visible {
+  box-shadow: inset 0 0 0 2px rgba(0, 120, 255, 0.35);
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {},
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "node": true,
+    "es2024": true
+  },
+  "ignorePatterns": ["dist", "build"],
+  "overrides": [
+    {
+      // Engine + kit source (src/**): a few stylistic rules are kept as non-blocking
+      // warnings (visible, not errors) to avoid churn, while test/, scripts/, and
+      // playground/ stay at full strictness.
+      //
+      // `no-explicit-any` is an ERROR here: the implementation (.ts/.tsx) is held to a
+      // zero-unjustified-`any` standard — every necessary `any` carries an inline
+      // `// oxlint-disable-next-line typescript/no-explicit-any -- <reason>` directive.
+      "files": ["src/**"],
+      "rules": {
+        "no-unused-vars": "warn",
+        "no-unassigned-vars": "warn",
+        "no-constant-binary-expression": "warn",
+        "typescript/no-wrapper-object-types": "warn",
+        "typescript/no-unsafe-declaration-merging": "warn",
+        "typescript/no-this-alias": "warn",
+        "typescript/no-explicit-any": "error"
+      }
+    },
+    {
+      // Hand-authored TYPE DEFINITIONS (.d.ts). Their remaining `any`s are deliberate
+      // and irreducible: the dynamic event emitter (`on`/`off`/`emit`/`onAny` — event
+      // names and handler arity are runtime-driven), user-content generic defaults
+      // (`<T = any>`), the lib.dom `EventListener => any` convention, the `touchEventsData`
+      // scratch index signature, and the established (intentionally loose) public method
+      // contract. `no-explicit-any` is OFF for declaration files because per-line disable
+      // directives would be copied verbatim into the shipped `dist/types/*.d.ts`
+      // (the vite build copies `.d.ts` as-is), polluting consumers' published types.
+      // This override MUST stay after the `src/**` block to win for `src/**/*.d.ts`.
+      "files": ["**/*.d.ts"],
+      "rules": {
+        "typescript/no-explicit-any": "off"
+      }
+    }
+  ]
+}

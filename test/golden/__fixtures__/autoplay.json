@@ -1,0 +1,8 @@
+{
+  "forward from start": 1,
+  "forward wrap at end": 0,
+  "forward stopOnLastSlide at end": 4,
+  "reverse from middle": 1,
+  "reverse wrap at start": 4,
+  "reverse stopOnLastSlide at start": 0
+}

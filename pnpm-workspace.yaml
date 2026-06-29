@@ -1,0 +1,10 @@
+# The docs site (VitePress) is an isolated workspace package so its toolchain
+# never enters the published library's dependency tree.
+packages:
+  - docs
+
+# pnpm secure-by-default policy: dependencies must be explicitly allowed to run
+# install/build scripts. esbuild is pulled in by Vite (demos/playground dev
+# servers) and links its platform binary via a postinstall script.
+allowBuilds:
+  esbuild: true

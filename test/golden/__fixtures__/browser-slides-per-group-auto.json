@@ -1,0 +1,19 @@
+{
+  "slidesGrid": [
+    0,
+    120,
+    320,
+    480,
+    720,
+    900,
+    1040,
+    1260
+  ],
+  "activeIndex-step-0": 3,
+  "activeIndex-step-1": 5,
+  "activeIndex-step-2": 5,
+  "activeIndex-step-3": 1,
+  "activeIndex-step-4": 0,
+  "activeIndex-step-5": 3,
+  "activeIndex-step-6": 0
+}

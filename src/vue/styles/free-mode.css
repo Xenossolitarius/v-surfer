@@ -1,0 +1,4 @@
+.v-surfer-free-mode > .v-surfer-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}

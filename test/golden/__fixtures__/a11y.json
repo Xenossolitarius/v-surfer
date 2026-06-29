@@ -1,0 +1,64 @@
+{
+  "non-loop-slide-labels": [
+    "1 / 5",
+    "2 / 5",
+    "3 / 5",
+    "4 / 5",
+    "5 / 5"
+  ],
+  "non-loop-slide-role": "group",
+  "non-loop-wrapper-aria-live": "polite",
+  "autoplay-aria-live": "off",
+  "container-role": "region",
+  "container-aria-label": "My carousel",
+  "container-aria-roledescription": "carousel",
+  "custom-slide-role": "listitem",
+  "custom-slide-aria-roledescription": "slide",
+  "nav-disabled-no-loop-prev-step0": "true",
+  "nav-disabled-no-loop-next-step0": null,
+  "nav-disabled-no-loop-prev-step1": null,
+  "nav-disabled-no-loop-next-step1": null,
+  "nav-disabled-no-loop-prev-step2": null,
+  "nav-disabled-no-loop-next-step2": null,
+  "nav-disabled-no-loop-prev-step3": null,
+  "nav-disabled-no-loop-next-step3": null,
+  "nav-disabled-no-loop-prev-step4": null,
+  "nav-disabled-no-loop-next-step4": "true",
+  "nav-disabled-rewind-prev-step0": null,
+  "nav-disabled-rewind-next-step0": null,
+  "nav-disabled-rewind-prev-step1": null,
+  "nav-disabled-rewind-next-step1": null,
+  "nav-disabled-rewind-prev-step2": null,
+  "nav-disabled-rewind-next-step2": null,
+  "nav-disabled-rewind-prev-step3": null,
+  "nav-disabled-rewind-next-step3": null,
+  "nav-disabled-rewind-prev-step4": null,
+  "nav-disabled-rewind-next-step4": null,
+  "bullet-aria-labels": [
+    "Go to slide 1",
+    "Go to slide 2",
+    "Go to slide 3",
+    "Go to slide 4"
+  ],
+  "bullet-role": "button",
+  "bullet-aria-current-before": [
+    "true",
+    null,
+    null,
+    null
+  ],
+  "bullet-aria-current-after": [
+    null,
+    null,
+    "true",
+    null
+  ],
+  "loop-slide-labels-multiset": [
+    "1 / 6",
+    "2 / 6",
+    "3 / 6",
+    "4 / 6",
+    "5 / 6",
+    "6 / 6"
+  ]
+}

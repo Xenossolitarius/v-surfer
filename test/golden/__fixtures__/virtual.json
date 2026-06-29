@@ -1,0 +1,67 @@
+{
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0}-step0": {
+    "from": 0,
+    "to": 1,
+    "offset": 0
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0}-step1": {
+    "from": 0,
+    "to": 2,
+    "offset": 0
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0}-step2": {
+    "from": 2,
+    "to": 4,
+    "offset": 1600
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0}-step3": {
+    "from": 4,
+    "to": 6,
+    "offset": 3200
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0}-step4": {
+    "from": 8,
+    "to": 9,
+    "offset": 6400
+  },
+  "win-{\"slidesPerView\":2,\"spaceBetween\":0,\"slidesPerGroup\":2}-step0": {
+    "from": 0,
+    "to": 3,
+    "offset": 0
+  },
+  "win-{\"slidesPerView\":2,\"spaceBetween\":0,\"slidesPerGroup\":2}-step1": {
+    "from": 0,
+    "to": 5,
+    "offset": 0
+  },
+  "win-{\"slidesPerView\":2,\"spaceBetween\":0,\"slidesPerGroup\":2}-step2": {
+    "from": 2,
+    "to": 7,
+    "offset": 800
+  },
+  "win-{\"slidesPerView\":2,\"spaceBetween\":0,\"slidesPerGroup\":2}-step3": {
+    "from": 6,
+    "to": 9,
+    "offset": 2400
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0,\"centeredSlides\":true}-step0": {
+    "from": 0,
+    "to": 1,
+    "offset": 0
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0,\"centeredSlides\":true}-step1": {
+    "from": 1,
+    "to": 3,
+    "offset": 800
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0,\"centeredSlides\":true}-step2": {
+    "from": 4,
+    "to": 6,
+    "offset": 3200
+  },
+  "win-{\"slidesPerView\":1,\"spaceBetween\":0,\"centeredSlides\":true}-step3": {
+    "from": 8,
+    "to": 9,
+    "offset": 6400
+  }
+}

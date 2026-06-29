@@ -1,0 +1,187 @@
+:root {
+  --v-surfer-theme-color: #007aff;
+  /*
+  --v-surfer-wrapper-transition-timing-function: initial;
+  */
+}
+.v-surfer {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  display: block;
+}
+.v-surfer-vertical > .v-surfer-wrapper {
+  flex-direction: column;
+}
+.v-surfer-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--v-surfer-wrapper-transition-timing-function, initial);
+  box-sizing: content-box;
+}
+.v-surfer-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+.v-surfer-horizontal {
+  touch-action: pan-y;
+}
+.v-surfer-vertical {
+  touch-action: pan-x;
+}
+.v-surfer-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+/* Auto Height */
+.v-surfer-autoheight,
+.v-surfer-autoheight .v-surfer-slide {
+  height: auto;
+}
+.v-surfer-autoheight .v-surfer-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+/* 3D Effects */
+.v-surfer-3d.v-surfer-css-mode .v-surfer-wrapper {
+  perspective: 1200px;
+}
+.v-surfer-3d .v-surfer-wrapper {
+  transform-style: preserve-3d;
+}
+.v-surfer-3d {
+  perspective: 1200px;
+  .v-surfer-slide,
+  .v-surfer-cube-shadow {
+    transform-style: preserve-3d;
+  }
+}
+
+/* CSS Mode */
+.v-surfer-css-mode {
+  > .v-surfer-wrapper {
+    overflow: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  > .v-surfer-wrapper > .v-surfer-slide {
+    scroll-snap-align: start start;
+  }
+  &.v-surfer-horizontal {
+    > .v-surfer-wrapper {
+      scroll-snap-type: x mandatory;
+    }
+    > .v-surfer-wrapper > .v-surfer-slide:first-child {
+      margin-inline-start: var(--v-surfer-slides-offset-before);
+      scroll-margin-inline-start: var(--v-surfer-slides-offset-before);
+    }
+    > .v-surfer-wrapper > .v-surfer-slide:last-child {
+      margin-inline-end: var(--v-surfer-slides-offset-after);
+    }
+  }
+  &.v-surfer-vertical {
+    > .v-surfer-wrapper {
+      scroll-snap-type: y mandatory;
+    }
+    > .v-surfer-wrapper > .v-surfer-slide:first-child {
+      margin-block-start: var(--v-surfer-slides-offset-before);
+      scroll-margin-block-start: var(--v-surfer-slides-offset-before);
+    }
+    > .v-surfer-wrapper > .v-surfer-slide:last-child {
+      margin-block-end: var(--v-surfer-slides-offset-after);
+    }
+  }
+  &.v-surfer-free-mode {
+    > .v-surfer-wrapper {
+      scroll-snap-type: none;
+    }
+    > .v-surfer-wrapper > .v-surfer-slide {
+      scroll-snap-align: none;
+    }
+  }
+  &.v-surfer-centered {
+    > .v-surfer-wrapper::before {
+      content: '';
+      flex-shrink: 0;
+      order: 9999;
+    }
+    > .v-surfer-wrapper > .v-surfer-slide {
+      scroll-snap-align: center center;
+      scroll-snap-stop: always;
+    }
+  }
+  &.v-surfer-centered.v-surfer-horizontal {
+    > .v-surfer-wrapper > .v-surfer-slide:first-child {
+      margin-inline-start: var(--v-surfer-centered-offset-before);
+    }
+    > .v-surfer-wrapper::before {
+      height: 100%;
+      min-height: 1px;
+      width: var(--v-surfer-centered-offset-after);
+    }
+  }
+  &.v-surfer-centered.v-surfer-vertical {
+    > .v-surfer-wrapper > .v-surfer-slide:first-child {
+      margin-block-start: var(--v-surfer-centered-offset-before);
+    }
+    > .v-surfer-wrapper::before {
+      width: 100%;
+      min-width: 1px;
+      height: var(--v-surfer-centered-offset-after);
+    }
+  }
+}
+
+/* Slide styles start */
+/* 3D Shadows */
+.v-surfer-3d {
+  .v-surfer-slide-shadow,
+  .v-surfer-slide-shadow-left,
+  .v-surfer-slide-shadow-right,
+  .v-surfer-slide-shadow-top,
+  .v-surfer-slide-shadow-bottom,
+  .v-surfer-slide-shadow,
+  .v-surfer-slide-shadow-left,
+  .v-surfer-slide-shadow-right,
+  .v-surfer-slide-shadow-top,
+  .v-surfer-slide-shadow-bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .v-surfer-slide-shadow {
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .v-surfer-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  }
+  .v-surfer-slide-shadow-right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  }
+  .v-surfer-slide-shadow-top {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  }
+  .v-surfer-slide-shadow-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  }
+}
+/* Slide styles end */

@@ -1,0 +1,14 @@
+/* Vue-Kit stylesheet — everything. Import a single feature file instead for a
+   minimal bundle (e.g. v-surfer/css/core + v-surfer/css/navigation). */
+@import './core.css';
+@import './navigation.css';
+@import './pagination.css';
+@import './scrollbar.css';
+@import './a11y.css';
+@import './free-mode.css';
+@import './effect-fade.css';
+@import './effect-flip.css';
+@import './effect-coverflow.css';
+@import './effect-creative.css';
+@import './effect-cube.css';
+@import './effect-cards.css';
